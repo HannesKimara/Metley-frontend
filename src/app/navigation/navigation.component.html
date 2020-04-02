@@ -1,0 +1,19 @@
+<nav *ngIf="true" class="z-depth-0">
+    <div class="nav-wrapper">
+      <a href="" class="brand-logo black-text ml-1">Hoods</a>
+      <a href="" data-target="mobile-demo" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="black-text">Home</a></li>
+        <li><a class="black-text">Dashboard</a></li>
+        <li *ngIf="true"><a class="btn">Login</a></li>
+        <li *ngIf="false"><a class="btn">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <ul class="sidenav" id="mobile-demo">
+    <li><a class="black-text">Home</a></li>
+    <li><a class="black-text">Dashboard</a></li>
+    <li *ngIf="true"><a class="btn">Login</a></li>
+    <li *ngIf="false"><a class="btn">Logout</a></li>
+  </ul>
