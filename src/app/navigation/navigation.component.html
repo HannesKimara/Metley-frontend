@@ -5,8 +5,8 @@
       <ul class="right hide-on-med-and-down">
         <li><a class="black-text" routerLink="">Home</a></li>
         <li><a class="black-text">Dashboard</a></li>
-        <li *ngIf="auth.loggedIn == false"><a routerLink="login" class="btn">Login</a></li>
-        <li *ngIf="auth.loggedIn"><a class="btn" (click)="auth.logout()">Logout</a></li>
+        <li *ngIf="auth.loggedIn == false"><a routerLink="login" class="btn pallete-dark-blue">Login</a></li>
+        <li *ngIf="auth.loggedIn"><a class="btn pallete-dark-blue" (click)="auth.logout()">Logout</a></li>
       </ul>
     </div>
   </nav>
