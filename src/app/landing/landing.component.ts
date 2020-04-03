@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavService } from '../nav.service';
 
 @Component({
   selector: 'app-landing',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
-  constructor() { }
+  constructor(public nav:NavService) { }
 
   ngOnInit(): void {
+    this.nav.visible = true;
   }
 
 }

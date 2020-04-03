@@ -1,0 +1,73 @@
+.hd-inputs {
+    background-color: rgb(241, 239, 239)!important;
+    border-bottom: none!important;
+    padding-top: 0.7rem!important;
+    padding-bottom: 0.7rem!important;
+    border-radius: 0.4rem!important;
+    height: 30px!important;
+    padding-left:1em;
+}
+
+.hd-inputs::placeholder {
+    padding-left:1em;
+    color: rgb(131, 127, 127)
+}
+
+.hd-inputs:focus {
+    border-bottom: none!important;
+}
+
+.btn-primary {
+    background-color: rgb(250, 119, 119);
+    border-radius: 0.4rem;
+    height:40px;
+    min-width:120px
+}
+
+#login-back {
+    background-color: #EFF7F8;
+    height: 100vh;
+    background-position: left; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 0 0;
+}
+
+.hd-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    margin:0 0 0 0;
+}
+
+.loader {
+    border: 3px solid grey;
+    border-radius: 50%;
+    border-top: 3px solid rgb(78, 77, 77);
+    width: 22px;
+    height: 22px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin-top: 8px!important;
+}
+  
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.pallete-blue {
+    background-color: #EFF7F8;
+}
+
+.pallete-dark-blue {
+    background-color: #137D94;
+}
